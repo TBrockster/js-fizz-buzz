@@ -8,7 +8,15 @@ describe("FizzBuzz", function() {
   });
 
   it("should return `Buzz` when given 5", function() {
-    expect(fizzBuzz(3)).toEqual("Buzz");
+    expect(fizzBuzz(5)).toEqual("Buzz");
+  });
+
+  it("should return `FizzBuzz` when given 15", function() {
+    expect(fizzBuzz(15)).toEqual("FizzBuzz");
+  });
+
+  it("should return `Fizz` when given 9", function() {
+    expect(fizzBuzz(9)).toEqual("Fizz");
   });
 });
 
